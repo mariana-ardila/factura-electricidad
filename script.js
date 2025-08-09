@@ -17,4 +17,12 @@ function tarifaKilovatio(){
 
 let valorKilovatio= tarifaKilovatio();
 
+//FUNCIÓN DE EXPRESIÓN CARGO FIJO POR SEVICIO
+let cargoFijoXservicio=function(){
+    return parseFloat(prompt("Digite el valor del cargo fijo por servicio: "));
+}
+
+let valorFijoxServicio=cargoFijoXservicio();
+
+
 
