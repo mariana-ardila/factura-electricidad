@@ -25,4 +25,12 @@ let cargoFijoXservicio=function(){
 let valorFijoxServicio=cargoFijoXservicio();
 
 
+//FUNCIÓN DE EXPRESIÓN IVA
+let iva=function(){
+    return parseFloat(prompt("Digite el valor del IVA: "))/100;
+}
+
+let valorIva=iva();
+
+
 
