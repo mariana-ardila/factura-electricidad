@@ -32,5 +32,14 @@ let iva=function(){
 
 let valorIva=iva();
 
+//FUNCIÓN FLECHA SUBTOTAL MULTIPLICADO CONSUMO POR TARIFA
+let subtotalFactura=()=>{
+    return consumoMensual*valorKilovatio;
+}
+
+let facturaSubtotal=subtotalFactura();
+
+
+
 
 
