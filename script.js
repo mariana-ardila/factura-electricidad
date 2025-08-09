@@ -39,6 +39,15 @@ let subtotalFactura=()=>{
 
 let facturaSubtotal=subtotalFactura();
 
+//FUNCIÓN FLECHA VALOR DEL IVA APLICADO SOBRE EL SUBTOTAL
+let ivaAplicadoAlSubtotal=()=>{
+    return facturaSubtotal*valorIva;
+}
+
+let ivaDelSubtotal=ivaAplicadoAlSubtotal();
+
+
+
 
 
 
