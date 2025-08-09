@@ -55,6 +55,19 @@ let totalFactura=()=>{
 
 let totalaPagar=totalFactura();
 
+//FUNCIÓN FINAL
+let descripcionTotalApagar=()=>{
+
+return console.log(`La factura de electricidad se compone de:\n
+    Consumo mensual: ${consumoMensual} kilovatios \n
+    Tarifa del kilovatio: ${valorKilovatio}\n
+    Subtotal: ${facturaSubtotal} pesos \n
+    Valor del Iva: ${ivaDelSubtotal} pesos \n
+    Valor del cargo fijo: ${valorFijoxServicio} pesos \n
+    Total a pagar: ${totalaPagar} pesos `)  
+
+}
+
 
 
 
