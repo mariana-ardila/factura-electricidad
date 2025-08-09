@@ -47,6 +47,13 @@ let ivaAplicadoAlSubtotal=()=>{
 let ivaDelSubtotal=ivaAplicadoAlSubtotal();
 
 
+//FUNCIÓN FLECHA PARA HALLAR EL TOTAL A PAGAR
+
+let totalFactura=()=>{
+    return facturaSubtotal+ivaDelSubtotal+valorFijoxServicio;
+}
+
+let totalaPagar=totalFactura();
 
 
 
