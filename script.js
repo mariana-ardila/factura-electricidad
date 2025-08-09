@@ -9,3 +9,12 @@ function consumoMensualKilovatios (){
 }
 
 let consumoMensual=consumoMensualKilovatios ();
+
+//FUNCIÓN DECLARATIVA TARIFA BASE POR KILOVATIO
+function tarifaKilovatio(){
+    return parseFloat(prompt("Digite el valor del Kilovatio"));
+}
+
+let valorKilovatio= tarifaKilovatio();
+
+
