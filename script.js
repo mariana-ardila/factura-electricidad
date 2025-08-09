@@ -67,8 +67,8 @@ return console.log(`La factura de electricidad se compone de:\n
     Total a pagar: ${totalaPagar} pesos `)  
 
 }
-
-
+//LLAMAR LA FUNCIÓN PARA MOSTRAR LOS VALORES EN CONSOLA
+descripcionTotalApagar();
 
 
 
